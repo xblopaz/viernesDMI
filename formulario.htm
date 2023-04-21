@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+	table{
+		margin: auto;
+	}
+
+	input, select{
+		background-color: #ff6633;
+	}
+
+	a:hover{
+		color: red;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+
+</style>
+
+	<title> FORM de inscripcion </title></head>
+<body>
+
+<table>
+<form>
+<tr>
+<td class="pablo">ESCRIBA SU NOMBRE </td> <td><input type="text" name="nombre" placeholder="Su nombre aqui">    </td>
+</tr>
+
+<tr>
+<td>ESCRIBA SU CONTRASEÑA </td> <td><input type="password" name="psw" placeholder="Su contraseña aqui">    </td>
+</tr>
+
+<tr>
+	<td>ESCRIBA SU EMAIL </td> <td><input type="email" name="email" placeholder="direccion@dominio.com">    </td>
+
+</tr>
+<tr>
+	<td>Suscribite al Newsletter </td><td> <input type="checkbox" name="news" value="1" checked></td>
+</tr>
+<tr>
+	<td>Indique su barrio</td> <td>
+		<select name="barrio">
+		<option selected>SELECCION</option>
+		<option value="Almagro">Almagro</option>
+		<option value="Boedo">Boedo</option>
+	</select></td>
+</tr>
+<tr>
+	<td>Tiene pc?</td><td>SI<input type="radio" name="PC" value="si"> NO<input type="radio" name="PC" value="no"></td>
+	</tr>
+	<tr>
+		<td>SUBA SU FOTO AQUI</td><td><input type="file" name="file"></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td><td><input type="submit" value="enviar datos"></td>
+	</tr>
+	<tr>
+		<td>SELECCIONE UNA FECHA</td><td><input type=date></td>
+		<td>INSERTE UN NUMERO</td><td><input type=number></td>
+	</tr>
+<tr>
+	<td><a href=algo.htm>algo</a></td><td><a href=algo.htm>algo</a></td>
+	<tr>
+
+
+</form>
+<table>
+
+</body>
+</html>
